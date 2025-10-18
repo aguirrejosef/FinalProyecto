@@ -1,0 +1,144 @@
+#contenedor-login {
+    background-image: url('../../imagenes/fondoLogin.png');
+    background-size: cover;
+    background-position: center;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background-color: #004AAD;
+    width: 100%;
+    height: 100vh;
+}
+
+.grid-login {
+    display: grid;
+    grid-template-columns: repeat(2,600px);
+    column-gap: 300px;
+    height: 80%;
+
+}
+
+.grid-item-login {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    color: black;
+    background-color: white;
+    opacity: 0.9;
+    border-radius: 5px;
+    box-shadow: 0 0 5px 5px rgb(255, 255, 255,1);
+}
+
+.contenedor-img-login {
+    width: 300px;
+    height: 300px;
+    background-color: black;
+    border: 3px solid black;
+    border-radius: 30px;
+    opacity:1
+}
+
+.titulo-login {
+    opacity: 1;
+    font-size: 45px;
+}
+
+.formulario-negocio{
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+    row-gap: 20px;
+}
+
+.formulario-negocio > * {
+    width: 400px;
+    height: 60px;
+    border-radius: 30px;
+    padding: 10px;
+    font-size: 20px;
+}
+
+.btn-iniciar-sesion-usuario {
+    width: 500px;
+    height: 60px;
+    border-radius: 30px;
+    padding: 10px;
+    font-size: 20px;
+}
+
+.btn-iniciar-sesion:hover {
+    background-color: #004AAD;
+    color: white;
+    border: 3px solid white;
+}
+
+.contenedor-logo {
+    width: 200px;
+    height: 100px;
+    position: fixed;
+    bottom: 30px;
+    right: 30px;
+}
+
+#btn-facebook {
+    background-color: #3b5998;
+    opacity: 100%;
+    color: white;
+}
+
+#img-negocio {
+    background-image: url('../../imagenes/negocioLogin.png');
+    background-size: cover;
+    background-position: center;
+}
+
+#img-usuario {
+    background-image: url('../../imagenes/usuarioLogin.png');
+    background-size: cover;
+    background-position: center;
+}
+
+.recuperar-password-negocio, .registro-negocio {
+    color: gray;
+    margin: 0;
+}
+
+.registro-negocio {
+    margin: 5px 0;
+
+}
+
+.recuperar-password-negocio {
+    margin-top: 10px;
+    margin-bottom: 5px;
+}
+
+.recuperar-password-negocio:hover,.registro-negocio:hover {
+    color: #004AAD;
+    cursor: pointer;
+}
+
+.facebook-login-button {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    width: 100%;
+    max-width: 300px;
+    height: 50px;
+    margin: 10px auto;
+    background-color: #1877f2;
+    color: white;
+    font-size: 16px;
+    font-weight: bold;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    text-align: center;
+  }
+  
+  .facebook-login-button .fa-facebook {
+    margin-right: 10px;
+    font-size: 20px;
+  }
+  

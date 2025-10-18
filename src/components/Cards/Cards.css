@@ -1,0 +1,16 @@
+.contenedor-grid-cards {
+    width: 100%;
+    height: 700px;
+    border: 4px solid white;
+    display: grid;
+    grid-template-columns: repeat(3,1fr);
+    column-gap: 200px;
+    justify-items: center;
+}
+
+.grid-item-card {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    border: 4px solid white;
+}
